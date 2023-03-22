@@ -1,0 +1,35 @@
+import { OBJEKTUMLISTA, SZAMLISTA, SZOVEGLISTA } from "./adat.js";
+import { rendezesObjektum } from "./rendezes.js";
+import { rendezesSzam } from "./rendezes.js";
+import { rendezesSzoveg } from "./rendezes.js";
+import { veletlenSorrend } from "./rendezes.js";
+
+$(function(){
+    console.log("************");
+    console.log(SZOVEGLISTA);
+    rendezesSzoveg(SZOVEGLISTA);
+    console.log(SZOVEGLISTA);
+    console.log("************");
+    console.log(SZAMLISTA);
+    rendezesSzam(SZAMLISTA);
+    console.log(SZAMLISTA);
+    console.log("************");
+    console.log(SZAMLISTA);
+    veletlenSorrend(SZAMLISTA);
+    console.log(SZAMLISTA);
+    console.log("************");
+    console.log(SZOVEGLISTA);
+    veletlenSorrend(SZOVEGLISTA);
+    console.log(SZOVEGLISTA);
+    console.log("************");
+    console.log(OBJEKTUMLISTA);
+    rendezesObjektum(OBJEKTUMLISTA, "kor");
+    console.log(OBJEKTUMLISTA);
+    console.log("************");
+    rendezesObjektum(OBJEKTUMLISTA, "nev");
+    console.log(OBJEKTUMLISTA);
+    console.log("************");
+    rendezesObjektum(OBJEKTUMLISTA, "fajta");
+    console.log(OBJEKTUMLISTA);
+    console.log("************");
+});
