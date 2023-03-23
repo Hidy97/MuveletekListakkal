@@ -7,4 +7,5 @@ export const OBJEKTUMLISTA = [
     {nev: "Morla", fajta: "husky", kor: 14},
     {nev: "Loki", fajta: "tacskó", kor: 4},
     {nev: "Happy", fajta: "németjuhász", kor: 42},
+    {nev: "Ropi", fajta: "csivava", kor: 3},
 ];
